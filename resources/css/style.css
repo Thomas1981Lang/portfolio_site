@@ -75,14 +75,14 @@ header {
 
 .hero section h2 {
     font-size: 3rem;
-    text-shadow: 4px 0 5px black, 0px 4px 5px black, -4px 0 5px black, 0px -4px 5px black, 0 0 25px rgb(98, 202, 152), 0 0 6px rgb(37, 132, 61);
+    text-shadow: 4px 0 5px black, 0 4px 5px black, -4px 0 5px black, 0 -4px 5px black, 0 0 25px rgb(98, 202, 152), 0 0 6px rgb(37, 132, 61);
 }
 
 .hero section h3 {
     max-width: 600px;
     padding: 2rem 0;
     font-size: 2rem;
-    text-shadow: 4px 0 5px black, 0px 4px 5px black, -4px 0 5px black, 0px -4px 5px black, 0 0 25px rgb(98, 202, 152), 0 0 6px rgb(37, 132, 61);
+    text-shadow: 4px 0 5px black, 0 4px 5px black, -4px 0 5px black, 0px -4px 5px black, 0 0 25px rgb(98, 202, 152), 0 0 6px rgb(37, 132, 61);
     line-height: 2.5rem;
 }
 
@@ -142,7 +142,7 @@ nav a {
         position: relative;
         width: 100%;
         flex-shrink: 1;
-        padding: 0rem;
+        padding: 0;
     }
 }
 
@@ -241,7 +241,7 @@ img {
 
 .image_content p {
     font-size: 1rem;
-    padding: 0rem 1rem 1rem 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 @media only screen and (max-width: 1200px) {
